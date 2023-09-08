@@ -1,0 +1,25 @@
+-dificultades, magnitud intensiva, no depende de las dimensiones del sistema
+-relacionada con los sentidos, pero sensación termica depende del amterial, no dice temperatura real
+-con la temperatura, aparece el calor, con el calor aparecen las leyes de la termodinamica, ley cero 
+“Si dos sistemas están, de forma separada, en equilibrio térmico con un tercero, entonces están en equilibrio térmico uno con el otro”. 
+es pilar de la termometria
+ permite definir de un modo operacional la temperatura de un sistema sin hacer hipótesis sobre la estructura de la materia
+
+
+--- La Escala Termodinámica----
+
+Es decir, no se puede usar un procedimiento aditivo mediante el cual el valor de temperatura se determine a partir de la cantidad de “intervalos unidad” 
+que contenga. 
+Los valores de temperatura sólo pueden ser determinados comparando dos temperaturas, 
+una de las cuales es la referencia y observando, de acuerdo con el principio cero de la termodinámica, cuándo hay o no flujo de calor y en qué dirección.
+
+
+Para relacionar la temperatura con alguna otra magnitud física, es necesario definir constantes de normalización, pero dejan libertad de elección 
+para el tamaño de la unidad y la posición del cero. 
+Estos son los dos grados de libertad característicos de cualquier escala lineal
+
+
+
+El problema básico en la construcción de la escala termodinámica es encontrar ecuaciones teóricas de la física en las que intervenga 
+la temperatura junto con otra magnitud mesurable y que pueda materializarse en un sistema real (termómetro) 
+con la precisión requerida. Se llama termómetro primario o termodinámico, aquel cuyo comportamiento sigue una ley física.

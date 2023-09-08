@@ -1,0 +1,40 @@
+ensamble = read.table("D:/Tarea 3 datos.txt", header = TRUE)
+str(ensamble)
+#esta línea nos da las estructura de la tabla
+
+attach(ensamble)
+#esta línea nos adjunta la tabla 
+
+#estas tres líneas siempre van estar#
+Curing_lights
+#esta línea es como le puse a la columna de Ensbl y va a tirar los valores de la misma
+Resin_types
+#esta línea es como le puse a la columna de variabla de respuesta y va a tirar los valores de la misma
+Bonding_strength
+#esta línea es como le puse a la columna de el tipo operador y va a tirar los valores de la misma
+Curing_lights <- factor(Curing_lights)
+# hago que la columna se vea como una variable , no un número 
+
+Resin_types <- factor(Resin_types)
+# hago que la columna se vea como una variable , no un número 
+
+
+ensamble.lm = lm(Bonding_strength ~ ( Resin_types))
+# hago  un modelo lineal -al cual le llamo ensamble.lm-  donde la variable dependiente depende de el tipo de operador y el error experimental  
+
+anova(ensamble.lm)
+#la tabla que necesito , donde la primera columna serán los GL. , la segunda Sumatorias cuadradas, la tercera Cuadrados Medios del Error, la cuarta el F, y la quinta el valor p, respectivo
+summary(ensamble.lm)
+plot(ensamble.lm)
+
+
+
+
+
+pairwise.t.test(Bonding_strength, Resin_types, p.adj = "none")
+#Hace el análisis LSD- que servía para diferenciar medias.
+
+
+1-pf(9.3223/(2.174+0.3^2),3,9)
+
+
